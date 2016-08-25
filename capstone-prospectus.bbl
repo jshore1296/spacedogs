@@ -1,0 +1,38 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{de1998multiplicities}
+Yves~Colin de~Verdi{\`e}re, \emph{Multiplicities of eigenvalues and tree-width
+  of graphs}, Journal of Combinatorial Theory, Series B \textbf{74} (1998),
+  no.~2, 121--146.
+
+\bibitem{fiedler1973algebraic}
+Miroslav Fiedler, \emph{Algebraic connectivity of graphs}, Czechoslovak
+  mathematical journal \textbf{23} (1973), no.~2, 298--305.
+
+\bibitem{hogben2005spectral}
+Leslie Hogben, \emph{Spectral graph theory and the inverse eigenvalue problem
+  of a graph}, Electronic Journal of Linear Algebra \textbf{14} (2005), no.~1,
+  3.
+
+\bibitem{Hong2004281}
+Yuan Hong, \emph{Tree-width, clique-minors, and eigenvalues}, Discrete
+  Mathematics \textbf{274} (2004), no.~1–3, 281 -- 287.
+
+\bibitem{mihail1989conductance}
+M~Mihail, \emph{Conductance and convergence of markov chains-a combinatorial
+  treatment of expanders}, Foundations of Computer Science, 1989., 30th Annual
+  Symposium on, IEEE, pp.~526--531.
+
+\bibitem{VANDAM1995139}
+Edwin~R. van Dam, \emph{Honoring j.j.seidel regular graphs with four
+  eigenvalues}, Linear Algebra and its Applications \textbf{226} (1995), 139 --
+  162.
+
+\end{thebibliography}

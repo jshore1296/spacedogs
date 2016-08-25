@@ -6,13 +6,22 @@
 \begin{document}
 	\maketitle
 	\section{Problem Statement}
-	
-	There are many ways to investigate properties of graphs by using the spectral properties of matrices and functions that operate on matrices.  In general, the goal of this research will be to analyze the structural sparsity of networks using graph, spectral, and matrix function tools.  This will be done through a combination of usage of algorithms, development of software, and application of theory to explore structure and sparsity in graphs.  This process will use many tools and topics from linear algebra and random graph generation.\\ 
-	
-	More specifically, we are interested in relating graph properties such as degeneracy and tree width to spectral properties of matrices.  This involves converting the graph into a matrix and then computing the eigenvalues of the corresponding matrix.  Once we have those eigenvalues, we will attempt to discover correlations between their values and the properties of the corresponding graph.  This will involve looking at the number of different of eigenvalues, the multiplicity of the eigenvalues that are repeated, and other such properties.  
-	
+
+	There are many ways to investigate properties of graphs by using the spectral properties of matrices and functions that operate on matrices.  In general, the goal of this research will be to analyze the structural sparsity of networks using graph, spectral, and matrix function tools.  This will be done through a combination of usage of algorithms, development of software, and application of theory to explore structure and sparsity in graphs.  This process will use many tools and topics from linear algebra and random graph generation.\\
+
+	More specifically, we are interested in relating graph properties such as degeneracy and tree width to spectral properties of matrices.  This involves converting the graph into a matrix and then computing the eigenvalues of the corresponding matrix.  Once we have those eigenvalues, we will attempt to discover correlations between their values and the properties of the corresponding graph.  This will involve looking at the number of different of eigenvalues, the multiplicity of the eigenvalues that are repeated, and other such properties.
+
+
+\section{Literature Review and Summary}
+
+Previous works on relationships of graph spectrum to structure have studied extremal eigenvalues, eigenvalue gaps, and eigenvalue multiplicities, and using those features to describe graph properties like cut conductance~\cite{fiedler1973algebraic,mihail1989conductance}, max degree, and graph symmetry groups~\cite{VANDAM1995139}. While each of these graph structures is interesting, none connect directly to the structural sparsity features which we are intersted in, like tree-width and degeneracy.
+
+More recent work has focused on relating the eigenvalue multiplicity in a generalized adjacency matrix to bounds on tree-width and the existence of graph minors~\cite{de1998multiplicities,hogben2005spectral,Hong2004281}, essential to studies of structural sparsity. However, these generalized adjacency matrices differ so drastically from the standard graph matrices that the resulting theoretical bounds are not usable, computationally.
+
+
+
 	\section{Research Design and Method}
-	
+
 	During the course of the project, research will consist of a repeatable 5-step process which is as follows:
 	\begin{enumerate}
 		\item Determine a graph property for which we hope to find a corresponding spectral characterization (such as relating tree-width of a graph to eigenvalue clusters and gaps).
@@ -23,11 +32,11 @@
 	\end{enumerate}
 
 	This project will require that all code produced is documented and released under a permissive, open-source license, such as the BSD 3-clause license.
-	
+
 	\section{Timeline}
-	
+
 	\begin{itemize}
-		\item \textbf{Fall 2016:} Studying, Preparation, and Library Development 
+		\item \textbf{Fall 2016:} Studying, Preparation, and Library Development
 		\begin{itemize}
 			\item For the first few weeks, I will be expected to do background reading on graph and spectral properties that include, but are not limited to, those mentioned above.
 			\item The project will then progress to developing software to generate and combine graphs.  This will largely be done during the first semester, though additional hypotheses developed in the second semester could result in this step being repeated.
@@ -47,7 +56,7 @@
 			\item Findings from experiments will be analyzed in an attempt to uncover conjectures about graphs and spectral properties.
 			\item These findings will be explored in an even greater level of detail in an attempt to analyze the probability of a likely connection.
 			\item In the event a hypothesis or conjecture seems to be a suitable candidate, we will attempt to write a proof of the conjecture regarding the initial findings.
-			\item Towards the end of the second semester, I will shift to preparing for my final presentation.  I will also fully document any code that has not yet been documented.  This process will culminate in my completion of a paper and presentation of my work, either in a poster presentation or a talk, at an undergraduate research venue.	
+			\item Towards the end of the second semester, I will shift to preparing for my final presentation.  I will also fully document any code that has not yet been documented.  This process will culminate in my completion of a paper and presentation of my work, either in a poster presentation or a talk, at an undergraduate research venue.
 		\end{itemize}
 		\item Milestones for Spring 2017:
 		\begin{itemize}
@@ -55,14 +64,14 @@
 			\item Finishing additions to graph generations code if deemed necessary (for example, if a new hypothesis requires a new type of graph)
 			\item Potentially discovering interesting results
 			\item If a result seems interesting, potentially completing a proof of that result
-			\item If the previous two are not achieved, we will report on all experiments that failed.  
+			\item If the previous two are not achieved, we will report on all experiments that failed.
 			\item Documenting and reporting on all code generated over the course of the project.
 		\end{itemize}
 	\end{itemize}
-	
+
 	\section{Tentative Final Product}
 	There are several tasks that I will be expected to complete during the course of this project.  Since our research is exploratory, it is unclear whether or not any significant results will be obtained.  However, my final contributions to this project will, at a minimum, include the following:\\
-	
+
 	\noindent
 	For every semester:
 	\begin{itemize}
@@ -72,18 +81,25 @@
 		\item Fully document all code in a shared version control repository, and create instructions to reproduce all results gathered over the course of the semester.
 		\item Release all code under a permissive, open-source license.
 	\end{itemize}
-	
+
 	\noindent
 	For Fall 2016:
 	\begin{itemize}
 		\item Submit a 4 to 10-page report that summarizes the literature I reviewed, outlines current progress, and discusses possible and likely directions for the research to proceed in during the spring.
 	\end{itemize}
-	
+
 	\noindent
 	For Spring 2017:
 	\begin{itemize}
 		\item Prepare a research report describing the central ideas I explored, any significant results I found, and the functionality of any software packages I completed.
 		\item Prepare and present a poster in a research venue.  A possibility is the NC State undergraduate research symposium.
 	\end{itemize}
-	
+
+
+	{\footnotesize
+	\bibliographystyle{amsplain}
+	\bibliography{all-bib}
+	}
+
+
 \end{document}

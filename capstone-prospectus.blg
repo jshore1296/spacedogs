@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/dev)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: capstone-prospectus.aux
+The style file: amsplain.bst
+Database file #1: all-bib.bib
+Warning--missing year in mihail1989conductance
+You've used 6 entries,
+            2213 wiz_defined-function locations,
+            544 strings with 4876 characters,
+and the built_in function-call counts, 1837 in all, are:
+= -- 173
+> -- 42
+< -- 0
++ -- 18
+- -- 12
+* -- 154
+:= -- 286
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 77
+empty$ -- 179
+format.name$ -- 12
+if$ -- 389
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 12
+newline$ -- 28
+num.names$ -- 12
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 46
+stack$ -- 0
+substring$ -- 169
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 1
+while$ -- 22
+width$ -- 7
+write$ -- 62
+(There was 1 warning)
